@@ -1,0 +1,14 @@
+{
+    "extends": "eslint-config-bamboo",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "listEmittedFiles": true,
+        "noImplicitAny": false,
+        "declaration": true,
+        "target": "es2020",
+        "removeComments": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
